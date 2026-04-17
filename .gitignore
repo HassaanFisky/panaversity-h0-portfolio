@@ -28,9 +28,13 @@ build_log_utf8.txt
 build_verbose.log
 *.log
 
-# Claude Code internals
+# AI agent internals (never commit cache or internal files)
+.gemini/
 CLAUDE.md
 AGENTS.md
+
+# Stale sub-directory (contains only build artifacts and AI cache)
+frontend/
 
 # TypeScript
 *.tsbuildinfo
